@@ -1,4 +1,4 @@
-package com.balaban.patientmonitoring
+package com.balaban.scaffoldexample
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth

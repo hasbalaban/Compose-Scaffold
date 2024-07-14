@@ -1,4 +1,4 @@
-package com.balaban.patientmonitoring
+package com.balaban.scaffoldexample
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -31,8 +31,7 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.core.content.ContextCompat
-import com.balaban.patientmonitoring.ui.theme.PatientMonitoringTheme
-
+import com.balaban.scaffoldexample.ui.theme.ScaffoldExampleTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 val LocalHomePageScrollBehavior =
@@ -54,7 +53,7 @@ class MainActivity : ComponentActivity() {
         )
 
         setContent {
-            PatientMonitoringTheme {
+            ScaffoldExampleTheme {
                 val scrollBehavior =
                     TopAppBarDefaults.enterAlwaysScrollBehavior(snapAnimationSpec = spring(stiffness = Spring.StiffnessLow))
 
@@ -105,7 +104,7 @@ private fun MainScreen(modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    PatientMonitoringTheme {
+    ScaffoldExampleTheme {
         MainScreen()
     }
 }

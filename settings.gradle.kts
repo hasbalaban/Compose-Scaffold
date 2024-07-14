@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PatientMonitoring"
+rootProject.name = "scaffold"
 include(":app")

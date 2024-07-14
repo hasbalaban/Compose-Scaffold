@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.balaban.patientmonitoring"
+    namespace = "com.balaban.scaffoldexample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.balaban.patientmonitoring"
+        applicationId = "com.balaban.scaffoldexample"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

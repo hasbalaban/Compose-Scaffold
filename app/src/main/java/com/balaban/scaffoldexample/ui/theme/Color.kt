@@ -1,4 +1,4 @@
-package com.balaban.patientmonitoring.ui.theme
+package com.balaban.scaffoldexample.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

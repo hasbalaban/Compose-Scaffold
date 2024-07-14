@@ -1,4 +1,4 @@
-package com.balaban.patientmonitoring
+package com.balaban.scaffoldexample
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxSize
@@ -34,8 +34,8 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.balaban.patientmonitoring.ui.theme.DarkGray
-import com.balaban.patientmonitoring.ui.theme.OffWhite
+import com.balaban.scaffoldexample.ui.theme.DarkGray
+import com.balaban.scaffoldexample.ui.theme.OffWhite
 
 
 @OptIn(ExperimentalMaterial3Api::class)

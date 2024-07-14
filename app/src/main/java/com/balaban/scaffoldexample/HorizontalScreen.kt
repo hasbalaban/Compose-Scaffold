@@ -1,7 +1,9 @@
-package com.balaban.patientmonitoring
+package com.balaban.scaffoldexample
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.HorizontalDivider
@@ -28,5 +30,11 @@ fun HorizontalScreenItem (){
 
 @Composable
 private fun ImageItems(imageUrl: String) {
-    AsyncImage(model = imageUrl, contentDescription = "image", modifier = Modifier.fillMaxWidth())
+    AsyncImage(
+        model = imageUrl,
+        contentDescription = "image",
+        modifier = Modifier
+            .fillMaxWidth()
+            .sizeIn(minHeight = 100.dp)
+    )
 }

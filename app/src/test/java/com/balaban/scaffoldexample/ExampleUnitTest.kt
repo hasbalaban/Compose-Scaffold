@@ -1,4 +1,4 @@
-package com.balaban.patientmonitoring
+package com.balaban.scaffoldexample
 
 import org.junit.Test
 
